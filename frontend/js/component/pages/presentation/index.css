@@ -1,0 +1,181 @@
+.project-presentation {
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+.project-presentation button {
+    cursor: pointer;
+}
+
+.project-presentation-title {
+    height: auto;
+    width: 100%;
+    font-size: 100px;
+    padding-bottom: 25px;
+    background-color: white;
+}
+
+.project-presentation-title-content {
+    padding: 25px 50px 100px;
+    color: #313131;
+    text-shadow: -1px 2px 2px rgba(150, 150, 150, 1);
+}
+
+.project-presentation-services {
+    height: auto;
+    padding: 40px;
+    width: 100%;
+    background-color: white;
+}
+
+.project-presentation-signup {
+    height: auto;
+    padding: 40px;
+    width: 100%;
+    background-color: #0091c0;
+}
+
+.project-presentation-wrapper {
+    text-align: center;
+}
+
+.project-presentation-wrapper .project-button button {
+    width: 50px;
+    font-size: 30px;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-presentation-title-content .project-logo img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    text-shadow: -1px 2px 2px rgba(150, 150, 150, 1);
+}
+
+.project-presentation-hospital {
+    height: auto;
+    padding: 40px;
+    width: 100%;
+    background-color: #0091c0;
+}
+
+.project-presentation-hospital .project-button button {
+    background-color: white;
+    color: #0091c0;
+}
+
+.project-presentation-hospital, .project-presentation-services, .project-presentation-signup {
+    padding: 40px;
+}
+
+.project-presentation-hospital-text, .project-presentation-hospital-photo {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 40px;
+    color: antiquewhite;
+}
+
+img {
+    position: relative;
+    margin: auto;
+}
+
+.project-presentation-hospital-text {
+    border-bottom: 2px solid antiquewhite;
+}
+
+.project-presentation-services-text, .project-presentation-services-photo {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 40px;
+    color: #313131;
+}
+
+.project-presentation-services-photo, .project-presentation-hospital-photo {
+    width: 30%;
+}
+
+.project-presentation-services-text {
+    border-top: 2px solid #313131;
+}
+
+.project-presentation-signup .project-button button {
+    background-color: white;
+    color: #0091c0;
+}
+
+.project-presentation-signup {
+    text-align: center;
+}
+
+.project-presentation-signup .project-button .backTop{
+    background-color: white;
+    width: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #0091c0;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-presentation-signup p {
+    font-size: 50px;
+    color: antiquewhite;
+    margin-bottom: 50px;
+}
+
+.project-presentation-signup-login, .project-presentation-signup-create {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+
+.project-presentation-signup-login, .project-presentation-signup-create button {
+    color: #313131;
+}
+
+.project-presentation-signup-login {
+    border-right: 2px solid antiquewhite;
+}
+
+.carousel .thumb img {
+    width: 50px !important;
+    height: 200px !important;
+}
+
+.carousel .slide img {
+    max-height: 200px;
+    width: 50px;
+}
+
+.project-presentation-phone-number {
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .project-presentation-services-photo, .project-presentation-hospital-photo {
+        width: 100%;
+    }
+
+    .project-presentation-title {
+        font-size: 30px;
+    }
+
+    .presentation-page-content {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .project-presentation-signup {
+        padding: 40px 0;
+    }
+
+    .project-presentation-signup .project-button {
+        width: 100%;
+    }
+
+}

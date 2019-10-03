@@ -1,0 +1,90 @@
+.project-appointment {
+    position: relative;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.project-appointment-details {
+    height: auto;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.project-appointment-details .project-appointment-side {
+    position: relative;
+    line-height: 55px;
+    border-right: 2px solid #3131;
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+.project-appointment-details .project-appointment-right {
+    position: relative;
+    margin-left: auto;
+    top: 25%;
+    float: inherit;
+    width: 75%;
+}
+
+.project-appointment-details .project-appointment-right .project-appointment-right-top {
+    position: relative;
+    line-height: 30px;
+    height: auto;
+    border-bottom: 2px solid #3131;
+}
+
+.project-appointment-details .project-appointment-right .project-appointment-right-bottom {
+    position: relative;
+    line-height: 30px;
+    height: 30px;
+}
+
+.project-appointment-details, .project-appointment-buttons {
+    display: inline-block;
+}
+
+.project-appointment-buttons {
+    width: 15%;
+    margin-left: 10px;
+}
+
+.project-appointment-buttons .project-button {
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.project-appointment-buttons .project-button button {
+    border-radius: 10px;
+}
+
+.project-appointment-buttons .project-button .button-cancel {
+    color: #ca3737;
+}
+
+.project-button-comment-combo {
+    display: inline;
+}
+
+@media only screen and (max-width: 768px) {
+    .project-appointment-details {
+        height: auto;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        vertical-align: top;
+    }
+
+    .project-appointment {
+        position: relative;
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .project-appointment-buttons {
+        width: 50%;
+    }
+}

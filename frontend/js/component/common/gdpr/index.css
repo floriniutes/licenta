@@ -1,0 +1,25 @@
+.project-gdpr {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+    background-color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 20px;
+    border-top: 5px solid #0091c0;
+}
+
+.project-gdpr p {
+    margin: 10px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.project-gdpr .project-button {
+    margin: 5px;
+    float: right;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}

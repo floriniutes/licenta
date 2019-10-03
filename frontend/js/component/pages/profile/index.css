@@ -1,0 +1,35 @@
+.project-profile .project-button {
+    margin-top: 5px;
+}
+
+.project-profile .project-address-inputs .project-input {
+    display: inline-block;
+}
+
+.project-profile .project-input .project-input-combo {
+    width: 60%;
+}
+
+.project-profile .project-input .project-input-combo input {
+    width: 100%;
+}
+
+.project-profile .project-input .project-input-combo .project-input-label {
+    left: 0;
+    width:100%;
+}
+
+.project-profile .project-input .project-input-combo .project-input-label label {
+    width: 100%;
+}
+
+.project-profile .project-address-inputs .project-input .project-input-label {
+    width: 5%;
+    left: 0;
+}
+
+.project-profile>.project-button:last-of-type {
+    width: 80px;
+    font-size: 35px;
+    margin-top: 15px;
+}

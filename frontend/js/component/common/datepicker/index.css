@@ -1,0 +1,25 @@
+.project-date-input {
+    width: 60%;
+    position: relative;
+    margin: 20px auto auto;
+}
+
+.react-datepicker-wrapper, .react-datepicker__input-container, .date-input {
+    width: 100%;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.project-date-input .date-input {
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+
+.project-date-input label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.project-date-input ul {
+    overflow-y: visible !important;
+}

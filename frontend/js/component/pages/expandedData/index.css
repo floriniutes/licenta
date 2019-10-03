@@ -1,0 +1,100 @@
+.project-expanded-data>div {
+    margin-top: 20px;
+    display: inline;
+}
+
+.project-expanded-data .project-expanded-data-profile .project-profile .project-input input {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    height: auto;
+}
+
+.project-expanded-data .project-expanded-data-label {
+    color: #0091c0;
+    text-shadow: 1px 0 1px rgba(150, 150, 150, 1);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.project-expanded-data .project-expanded-data-profile .project-profile .project-input .project-input-combo {
+    width: 100%;
+}
+
+.project-expanded-data .project-expanded-data-profile .project-profile .project-input label {
+    font-weight: bolder;
+}
+
+.project-expanded-data>div {
+    border-radius: 10px;
+    text-align: left;
+    overflow-y: auto;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #3131;
+}
+
+.project-expanded-data .project-expanded-data-profile {
+    width: 35%;
+    float: left;
+}
+
+.project-expanded-data .project-expanded-data-history {
+    width: 60%;
+    float: right;
+}
+
+.project-expanded-data .project-expanded-data-history .project-completed-appointment {
+    text-align: center;
+    width: 100%;
+}
+
+.project-expanded-data .project-expanded-data-current-appointment {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    margin: 20px auto;
+    height: auto;
+    text-align: center;
+}
+
+.project-expanded-data .project-expanded-data-current-appointment .project-button{
+    width: 40px;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.project-expanded-data .project-expanded-data-current-appointment textarea {
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 70%;
+    border: 2px solid #3131;
+    padding: 7px;
+}
+
+.project-expanded-data .project-appointment-list-details-back{
+    float: left;
+    top: 3%;
+    position: absolute;
+    left: 5%;
+    font-size: 40px;
+    color: #0091c0;
+    cursor: pointer;
+    text-align: left;
+}
+
+@media only screen and (max-width: 690px) {
+    .project-expanded-data .project-expanded-data-profile {
+        width: 100%;
+    }
+
+    .project-expanded-data .project-expanded-data-history {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    .project-expanded-data .project-expanded-data-current-appointment {
+        width: 100%;
+    }
+}

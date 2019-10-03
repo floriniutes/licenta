@@ -1,0 +1,16 @@
+.project-appointment-list-back {
+    float: left;
+    top: 3%;
+    position: absolute;
+    left: 5%;
+    font-size: 40px;
+    color: #0091c0;
+    cursor: pointer;
+    text-align: left;
+}
+
+.project-appointment-list-back:hover {
+    color: red;
+    transition: all 0.5s;
+}
+

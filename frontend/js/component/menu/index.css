@@ -1,0 +1,29 @@
+.project-menu .project-button button {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: #313131;
+}
+
+.project-menu .project-button {
+    width: 100%;
+    margin: 0;
+    height: 10%;
+    border-top: 1px solid white;
+}
+
+.project-menu {
+    width: 100%;
+    transition: all 0.5s;
+    margin-left: 0;
+}
+
+.project-menu .project-button:last-of-type {
+    border-bottom: 1px solid white;
+}
+
+.project-menu.retracted {
+    width: 0;
+    margin-left: -20px;
+    font-size: 0;
+}

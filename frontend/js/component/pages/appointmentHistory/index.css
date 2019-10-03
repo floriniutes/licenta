@@ -1,0 +1,69 @@
+.project-person-tile {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 20%;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 80px;
+}
+
+.project-appointment-history .project-select-wrapper{
+    text-align: left;
+}
+
+.project-search-input {
+    width: 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0 solid #3131;
+    transition: all 0.5s;
+}
+
+.project-appointment-history .project-search-input.active{
+    border: 1px solid #3131;
+    width: 20%;
+    transition: all 0.5s;
+}
+
+.project-appointment-history p {
+    margin-top: 50px;
+    font-size: 40px;
+
+}
+
+.project-appointment-history i {
+    background-color: #0091c0;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.project-appointment-history .project-appointment-history-avg-time {
+    font-size: 20px;
+    color: #0091c0;
+    font-weight: bold;
+}
+
+.react-calendar {
+    position: relative;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 1284px) {
+    .project-person-tile {
+        width: 30%;
+        font-weight: bolder;
+    }
+}
+
+@media only screen and (max-width: 884px) {
+    .project-person-tile {
+        width: 60%;
+        font-weight: bolder;
+    }
+}

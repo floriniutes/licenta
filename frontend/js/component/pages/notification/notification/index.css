@@ -1,0 +1,64 @@
+.project-notification {
+    position: relative;
+    display: inline-block;
+    margin: 20px auto;
+    margin-bottom: 0;
+    border-radius: 10px;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-notification.new {
+    background-color: #0091c0;
+    display: inline-block;
+    position: relative;
+    color: antiquewhite;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-notification .project-notification-date {
+    display: inline-block;
+    position: relative;
+    width: 29%;
+    padding: 15px 10px;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.project-notification .project-notification-message {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    padding: 15px 10px;
+    width: 70%;
+    vertical-align: top;
+    margin-left: auto;
+    border-left: 2px solid #3131;
+}
+
+.project-notification-wrapper .project-button {
+    width: 40px;
+    height: 40px;
+}
+
+.project-notification-wrapper .project-button .button-accept {
+    color: #00E500;
+}
+
+.project-notification-wrapper .project-button .button-refuse {
+    color: #ca3737;
+}
+
+@media only screen and (max-width: 768px) {
+    .project-notification {
+        width: 100%;
+    }
+
+    .project-notification.new {
+        width: 100%;
+    }
+}

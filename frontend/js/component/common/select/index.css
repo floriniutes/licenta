@@ -1,0 +1,27 @@
+.project-select-wrapper {
+    position: relative;
+    margin: 20px auto auto;
+    width: 60%;
+}
+
+.project-select-wrapper select {
+    border-radius: 5px;
+    border-color: lightgray;
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+}
+
+.project-select-wrapper select:focus {
+    border-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-select-wrapper select option:first-child {
+    display: none;
+}
+
+.project-select-wrapper label {
+    margin-bottom: 5px;
+}
+

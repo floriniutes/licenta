@@ -1,0 +1,25 @@
+.project-appointment-form .project-button {
+    margin-top: 50px;
+}
+
+.project-appointment-form .project-button:first-child {
+    margin-top: 10px;
+}
+
+.project-appointment-form .project-button .project-undo {
+    width: 30px;
+    height: 30px;
+}
+
+.project-appointment-form .project-appointment-form-input {
+    text-align: left;
+}
+
+.project-appointment-form .project-input {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.project-appointment-form .project-input .project-input-label{
+    left: 0;
+}

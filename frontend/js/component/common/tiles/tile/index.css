@@ -1,0 +1,62 @@
+.project-tile {
+    display: inline-block;
+    margin: 25px 100px;
+    cursor: pointer;
+}
+
+.project-tile .content-wrapper {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-tile .content-wrapper .content-icon {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.project-tile .content-wrapper a:link {
+    text-decoration: none;
+}
+
+.project-tile .content-wrapper a:hover {
+    text-decoration: none;
+}
+
+.project-tile .content-wrapper:hover, :visited {
+    color: black;
+    text-decoration: none;
+}
+
+.project-tile .content-wrapper .content-icon {
+    text-align: center;
+    height: 70%;
+    width: 100%;
+}
+
+.project-tile .content-wrapper .content-icon i {
+    position: relative;
+    font-size: 100px;
+    color: #313131;
+    top: 25%;
+}
+
+.project-tile .content-wrapper .content-description {
+    text-align: center;
+    height: 30%;
+    width: 100%;
+}
+
+.project-tile .content-wrapper .content-description p {
+    top: 30%;
+    position: relative;
+    color: #313131;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 400px) {
+    .project-tile {
+        margin: 25px 20%;
+    }
+}

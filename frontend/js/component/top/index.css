@@ -1,0 +1,88 @@
+.project-top {
+  background-color: #313131;
+  width: 100%;
+    text-align: left;
+  height: 10%;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.project-top .project-button button {
+  padding: 10px 0;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.project-top .project-button {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  top: 0;
+  margin: 0;
+}
+
+.project-top .presentation-page-content {
+  text-align: right;
+  margin-left: auto;
+  width: 40%;
+  padding: 0;
+}
+
+.project-top .content {
+  position: relative;
+}
+
+.project-top .logged-content p.project-top-text {
+    color: white;
+    display: inline;
+}
+
+.project-top .logged-content span{
+  color: #0091c0;
+  float: right;
+}
+
+.project-top .content a{
+  color: white;
+}
+
+.project-top .logged-content span.burger-menu {
+    display: none
+}
+
+.project-top .content a:visited {
+    color: white;
+}
+
+@media only screen and (max-width: 768px){
+    .project-top .logged-content p.project-top-text {
+        display: none;
+    }
+
+    .project-top {
+        padding: 15px;
+        font-size: 30px;
+    }
+
+    .project-top .logged-content span.burger-menu {
+        display: block;
+        float: left;
+    }
+
+    .project-top {
+        height: 60px;
+    }
+
+    .project-top .presentation-page-content {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .project-top .presentation-page-content .project-button button {
+        font-size: 12px;
+    }
+
+}

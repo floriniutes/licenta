@@ -1,0 +1,15 @@
+.project-side-menu {
+    background-color: #313131;
+    border-right: 1px solid white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.project-side-menu .project-logo {
+    margin-bottom: 10px;
+}
+
+.project-side-menu .project-logo img {
+    margin-top: 50px;
+}

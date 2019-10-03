@@ -1,0 +1,8 @@
+.project-assistant-register .project-register-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.project-assistant-register .project-register-form .project-input-combo .project-input-label {
+    left: 0;
+}

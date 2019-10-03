@@ -1,0 +1,49 @@
+.project-appointment-group-details {
+    position: relative;
+    border: 2px solid #3131;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 60%;
+    font-size: 40px;
+    height: 60px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.project-appointment-group-details, .project-button {
+    display: inline-block;
+}
+
+.project-appointment-group .project-button {
+    width: 10%;
+    margin-left: 10px;
+}
+
+.project-appointment-group .project-button{
+    margin-bottom: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.project-appointment-group .project-button button{
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.project-button .button-cancel {
+    color: #ca3737;
+}
+
+.project-appointment-group.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .project-appointment-group-details {
+        width: 75%;
+        transition: all 0.5s;
+    }
+}

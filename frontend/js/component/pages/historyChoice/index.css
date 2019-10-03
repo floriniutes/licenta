@@ -1,0 +1,20 @@
+.project-history-choice .project-tile {
+    margin: 25px 25px;
+}
+
+
+.project-history-choice .project-tile .content-wrapper:hover {
+    background-color: #0091c0;
+    color: white;
+    transition: all 0.2s;
+}
+
+.project-history-choice .project-tile .content-wrapper {
+    color: white;
+}
+
+.project-history-choice .project-tile .content-wrapper:hover .content-icon i, .project-history-choice .project-tile .content-wrapper:hover .content-description p {
+    color: white;
+    background-color: transparent;
+    transition: all 0.2s;
+}
